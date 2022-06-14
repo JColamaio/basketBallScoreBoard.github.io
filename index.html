@@ -1,14 +1,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <div class="container">
             <div>
                 <h3>HOME</h3>
+                <div style="font-family: 'Orbitron', sans-serif;"><h3 class="scoreNum" >0</h3></div>
+                <button class="btn-add1" onclick="increment1()">+1</button>
+                <button class="btn-add2" onclick="increment2()">+2</button>
+                <button class="btn-add3" onclick="increment3()">+3</button>
+            </div>
+            <div>
+                <h2></h3>
             </div>
             <div>
                 <h3>GUEST</h3>
+                <div  style="font-family: 'Orbitron', sans-serif;"><h3 class="scoreNum"> 0 </h3></div>
+                <button class="btn-add1" onclick="increment1()">+1</button>
+                <button class="btn-add2" onclick="increment2()">+2</button>
+                <button class="btn-add3" onclick="increment3()">+3</button>
             </div>
         </div>
         <script src="index.js"></script>

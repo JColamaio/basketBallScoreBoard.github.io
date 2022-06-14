@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 3, 56);
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+h3 {
+    color: white;
+    padding-left: 60px;
+}
+
+.scoreNum {
+    color: salmon;
+    margin: 20px 30px 20px 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px ;
+    font-size: 60px;
+    background-color: black;
+
+}
+.btn-add1 {
+    padding: 10px 10px 10px 10px;
+    margin-left: 16px;
+    border-radius: 10px;
+    color: rgb(74, 74, 199);   
+    background-color: rgb(3, 3, 56);
+    font-size: 16px;
+}
+.btn-add2 {
+    padding: 10px 10px 10px 10px;
+    margin-left: 16px;
+    border-radius: 10px;
+    color: rgb(74, 74, 199);   
+    background-color: rgb(3, 3, 56);
+    font-size: 16px;
+}
+.btn-add3 {
+    padding: 10px 10px 10px 10px;
+    margin-left: 16px;
+    border-radius: 10px;
+    color: rgb(74, 74, 199);   
+    background-color: rgb(3, 3, 56);
+    font-size: 16px;
+}
