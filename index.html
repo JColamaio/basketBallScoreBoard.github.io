@@ -9,7 +9,7 @@
         <div class="container">
             <div>
                 <h3>HOME</h3>
-                <div style="font-family: 'Orbitron', sans-serif;"><h3 class="scoreNum" >0</h3></div>
+                <h3 id="scoreNumA" class="scoreNum1" style="font-family: 'Orbitron', sans-serif;"> 0 </h3>
                 <button class="btn-add1" onclick="increment1()">+1</button>
                 <button class="btn-add2" onclick="increment2()">+2</button>
                 <button class="btn-add3" onclick="increment3()">+3</button>
@@ -17,12 +17,13 @@
             <div>
                 <h2></h3>
             </div>
+            <div><button class="newGame" onclick="reset()">NEW GAME</button></div>
             <div>
                 <h3>GUEST</h3>
-                <div  style="font-family: 'Orbitron', sans-serif;"><h3 class="scoreNum"> 0 </h3></div>
-                <button class="btn-add1" onclick="increment1()">+1</button>
-                <button class="btn-add2" onclick="increment2()">+2</button>
-                <button class="btn-add3" onclick="increment3()">+3</button>
+                <h3 id="scoreNumB"class="scoreNum2" style="font-family: 'Orbitron', sans-serif;"> 0 </h3>
+                <button class="btn-add1" onclick="increment1G()">+1</button>
+                <button class="btn-add2" onclick="increment2G()">+2</button>
+                <button class="btn-add3" onclick="increment3G()">+3</button>
             </div>
         </div>
         <script src="index.js"></script>
