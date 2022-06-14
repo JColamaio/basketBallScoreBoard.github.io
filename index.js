@@ -33,5 +33,4 @@ function reset(){
     scoreHomeA.textContent = 0;
     countB = 0
     scoreHomeB.textContent = 0;
-
 }
